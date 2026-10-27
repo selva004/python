@@ -1,11 +1,11 @@
 name: Python CI
 
 on:
-
   pull_request:
     branches:
       - main
       - develop
+      - dev
 
 jobs:
   lint-and-test:
